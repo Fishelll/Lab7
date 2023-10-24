@@ -5,17 +5,15 @@ using namespace std;
 
 int main()
 {
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
     int F;
     float a, b, c, x;
-    cout << "¬вед≥ть число a: ";
+    cout << "Enter number a: ";
     cin >> a;
-    cout << "¬вед≥ть число b: ";
+    cout << "Enter number b: ";
     cin >> b;
-    cout << "¬вед≥ть число c: ";
+    cout << "Enter number c: ";
     cin >> c;
-    cout << "¬вед≥ть число x: ";
+    cout << "Enter number x: ";
     cin >> x;
     if (c < 0 && a != 0) {
         F = pow(-a * x, 3) - b / c;
